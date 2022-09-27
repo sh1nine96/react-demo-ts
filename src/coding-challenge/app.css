@@ -1,0 +1,13 @@
+.animation{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from{ width: 200px; height: 200px;}
+    to{ width: 100px; height: 100px;}
+}
