@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 
 // import el from './react-css/slide';
 // import el from "./jsx_and_tsx/tsx_demo";
@@ -12,7 +11,10 @@ import "./index.css";
 // import el from "./components/class-component/slide_Class";
 
 // import el from "./components/coding-challenge/function-component";
-import el from "./components/coding-challenge/class-component";
+// import el from "./components/coding-challenge/class-component";
+
+// import el from "./props-and-types/slide-function-demo";
+import el from "./props-and-types/slide-class-demo";
 
 import ReactDOM from "react-dom";
 
