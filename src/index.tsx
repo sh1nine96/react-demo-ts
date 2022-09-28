@@ -1,7 +1,18 @@
 import React from "react";
-import './index.css'
+import "./index.css";
 
-import el from './react-css/slide'
+// import el from './react-css/slide';
+// import el from "./jsx_and_tsx/tsx_demo";
+
+// we can name it anything
+// import shoppingListEl from "./react-fragment/react-fragment";
+// import el from "./react-fragment/react-fragment";
+
+// import el from "./components/function-component/slide";
+// import el from "./components/class-component/slide_Class";
+
+// import el from "./components/coding-challenge/function-component";
+import el from "./components/coding-challenge/class-component";
 
 import ReactDOM from "react-dom";
 
