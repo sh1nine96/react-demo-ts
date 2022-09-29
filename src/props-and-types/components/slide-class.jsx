@@ -21,7 +21,7 @@ class Slide extends React.Component {
       current: PropTypes.number.isRequired,
       total: PropTypes.number.isRequired,
     }),
-    children: PropTypes.node.isRequired,
+    children: PropTypes.ReactNode.isRequired,
   };
   render() {
     const { heading, page, children } = this.props;

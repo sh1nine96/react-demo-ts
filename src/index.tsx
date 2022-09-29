@@ -14,7 +14,8 @@ import React from "react";
 // import el from "./components/coding-challenge/class-component";
 
 // import el from "./props-and-types/slide-function-demo";
-import el from "./props-and-types/slide-class-demo";
+// import el from "./props-and-types/slide-class-demo";
+import el from "./state/Slideshow_class_demo";
 
 import ReactDOM from "react-dom";
 
