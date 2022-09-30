@@ -15,7 +15,13 @@ import React from "react";
 
 // import el from "./props-and-types/slide-function-demo";
 // import el from "./props-and-types/slide-class-demo";
-import el from "./state/Slideshow_class_demo";
+// import el from "./state/Slideshow_class_demo";
+
+// import el from "./state/Slideshow_function_demo";
+
+// import el from "./coding-challenge-state/Slideshow_class_demo";
+
+import el from "./coding-challenge-state/Slideshow_function_demo";
 
 import ReactDOM from "react-dom";
 

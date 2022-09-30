@@ -13,18 +13,7 @@ class Slideshow extends Component<Props, State> {
     activeSlide: 0,
   };
 
-  //     constructor(props: Props) {
-  //     super(props);
-  //     this.state = {
-  //       activeSlide: 0,
-  //     };
-  //   }
-
   previous = () => {
-    // console.log("previous");
-    // this.setState({
-    //   activeSlide: this.state.activeSlide - 1,
-    // });
     this.setState((state) => {
       return {
         activeSlide: Math.max(state.activeSlide - 1, 0),
@@ -33,10 +22,6 @@ class Slideshow extends Component<Props, State> {
   };
 
   next = () => {
-    // console.log("next");
-    // this.setState({
-    //   activeSlide: this.state.activeSlide + 1,
-    // });
     this.setState((state) => {
       return {
         activeSlide: Math.min(
@@ -52,16 +37,17 @@ class Slideshow extends Component<Props, State> {
     const { children } = this.props;
     return (
       <>
-        <div style={{ float: "right" }}>
-          <button onClick={this.previous}>previous</button>
-          <button onClick={this.next}>next</button>
-        </div>
         {cloneElement(children[activeSlide], {
           page: {
             current: activeSlide + 1,
             total: children.length,
           },
         })}
+
+        <div style={{ float: "right" }}>
+          <button onClick={this.previous}>previous</button>
+          <button onClick={this.next}>next</button>
+        </div>
       </>
     );
   }

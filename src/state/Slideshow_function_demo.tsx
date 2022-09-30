@@ -1,6 +1,6 @@
 import React from "react";
-import Slideshow from "./slideshow_class";
-import Slide from "./components/slide-class";
+import Slideshow from "./slideshow_function";
+import Slide from "./components/slide-function";
 
 import "./components/slide.css";
 
