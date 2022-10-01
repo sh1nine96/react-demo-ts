@@ -24,7 +24,7 @@ import React from "react";
 // import el from "./coding-challenge-state/Slideshow_function_demo";
 // import el from "./constructor/Slideshow_class_demo";
 
-import el from "./conditional-rendering/Slideshow_demo";
+import el from "./events/events-demo";
 
 import ReactDOM from "react-dom";
 
