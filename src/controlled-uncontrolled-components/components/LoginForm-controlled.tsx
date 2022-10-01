@@ -61,5 +61,4 @@ class LoginForm extends Component<Props, State> {
     );
   }
 }
-
 export default LoginForm;

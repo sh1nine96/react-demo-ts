@@ -27,7 +27,10 @@ import React from "react";
 // import el from "./events/events-demo";
 
 // import el from "./controlled-uncontrolled-components/LoginForm-uncontrolled-demo";
-import el from "./controlled-uncontrolled-components/LoginForm-controlled-demo";
+// import el from "./controlled-uncontrolled-components/LoginForm-controlled-demo";
+
+// import el from "./list-map-keys/fruitsList-demo";
+import el from "./list-map-keys/slideDeck-demo";
 
 import ReactDOM from "react-dom";
 
