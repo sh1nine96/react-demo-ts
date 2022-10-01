@@ -24,7 +24,10 @@ import React from "react";
 // import el from "./coding-challenge-state/Slideshow_function_demo";
 // import el from "./constructor/Slideshow_class_demo";
 
-import el from "./events/events-demo";
+// import el from "./events/events-demo";
+
+// import el from "./controlled-uncontrolled-components/LoginForm-uncontrolled-demo";
+import el from "./controlled-uncontrolled-components/LoginForm-controlled-demo";
 
 import ReactDOM from "react-dom";
 
